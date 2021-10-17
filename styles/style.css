@@ -1,0 +1,258 @@
+/*system tags*/
+body {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+/**/
+/*menu, submene and logo*/
+.logo {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 36px;
+}
+
+.submenu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 35px;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+
+.g1 {
+    font-weight: 700;
+    color: #C3170C;
+}
+
+.oglobo {
+    font-weight: 700;
+    color: #1E4B9B;
+}
+
+.valor {
+    font-weight: 700;
+    color: #006766;
+}
+
+.ge {
+    font-weight: 700;
+    color: #07AA47;
+
+}
+
+.cartola {
+    font-weight: 700;
+    color: #E3662B;
+}
+
+.globoplay {
+    font-weight: 700;
+    color: #FB0735;
+}
+
+.drops {
+    font-weight: 700;
+    color: #FF75BB;
+
+}
+
+.gshow {
+    font-weight: 700;
+    color: #EC7D00;
+
+}
+
+.quem {
+    font-weight: 700;
+    color: #323333;
+}
+
+.receitas {
+    font-weight: 700;
+    color: #A81D83;
+}
+
+/*Politics*/
+.politica {
+    border-bottom: 1px solid white;
+    border-top: 10px;
+}
+
+.principalM {
+    font-size: 52px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #C4160C;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.secundariaM p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.noticiasImg {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticiasNotImg {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.secundario {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    height: 100%;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.card p {
+    width: 193px;
+}
+
+.tituloMateriaPolitica {
+    font-size: 14px;
+    font-family: 'Encode Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+/**/
+/*Esports*/
+.esporte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    border-left: 1px solid #EBEDEF;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cardEsp {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cardEsp p {
+    width: 240px;
+}
+
+.tituloMateriaEsporte {
+    font-size: 14px;
+    font-family: 'Encode Sans', sans-serif;
+    color: #16AE54;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+/**/
+/* bullsh*t */
+.fofoca {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 1px solid #EBEDEF;
+    margin-left: 5px;
+}
+
+.cardFofoca {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cardFofoca p {
+    width: 240px;
+}
+
+.imgCard {
+    width: 240px;
+    height: 128px;
+}
+
+.tituloMateriaFofoca {
+    font-size: 14px;
+    font-family: 'Encode Sans', sans-serif;
+    color: #EC8006;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+/**/
+/*Geral components*/
+.tituloMateria {
+    font-size: 14px;
+    font-family: 'Encode Sans', sans-serif;
+    color: #C4170C;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.resumo {
+    font-size: 20px;
+    font-family: 'Encode Sans', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #2F3134;
+
+}
+
+.outrasPesquisas {
+    font-size: 14px;
+    font-family: 'Encode Sans', sans-serif;
+    color: #2F3134;
+    margin-bottom: 20px;
+}
+
+.max_container {
+    width: 1250px;
+    height: 100%;
+    border: 1px solid #F5F6F7;
+
+}
+
+.corpo {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.principal {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**/
